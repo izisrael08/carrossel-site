@@ -7,6 +7,8 @@ import "./App.css";
 import imagem1 from "./img/1.jpg";
 import imagem2 from "./img/2.jpg";
 import imagem3 from "./img/3.jpg";
+import imagem4 from "./img/4.jpg";
+import imagem5 from "./img/5.jpg";
 
 const App = () => {
   return (
@@ -29,6 +31,12 @@ const App = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={imagem3} alt="Slide 3" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={imagem4} alt="Slide 4" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={imagem5} alt="Slide 5" />
         </SwiperSlide>
       </Swiper>
     </div>
